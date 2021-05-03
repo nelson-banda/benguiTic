@@ -49,9 +49,9 @@ public class MainActivity extends AppCompatActivity {
     public void Verifica( ){
 
         try {
-            TextView win1= findViewById(R.id.txtpc);
+
             TextView win= findViewById(R.id.txtpc2);
-            win1.setText(Integer.toString(inputpc));
+
 
             if(inputpc==inputuser){
 
